@@ -23,6 +23,6 @@ public class InterfApp {
 
         }
 
-        client.jorneyTrip(new JorneyTrip());
+
     }
 }

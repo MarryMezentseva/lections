@@ -6,23 +6,26 @@ public class InterfApp {
 
     public static void main(String[] args) {
         Client client = new Client();
+        Trip trip;
 
         switch (TRIP_TYPE) {
 
             case "business":
-                client.businessTrip(new BusinesTrip());
+                trip = new BusinesTrip();
                 break;
             case "jorney":
-                client.jorneyTrip(new JorneyTrip());
+                trip = new JorneyTrip();
                 break;
             case "crusade":
-                client.crusadeTrip(new CrusadeTrip());
+                trip = new CrusadeTrip();
+            case "super":
+                trip = new SuperBusinesTrip();
                 break;
                 default:
                     throw new RuntimeException("Error");
 
         }
 
-
+        client.trip(trip);
     }
 }

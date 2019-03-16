@@ -1,0 +1,32 @@
+[
+  {
+    "id": "1",
+    "name": "masha",
+    "description": "girl"
+  },
+  {
+    "id": "2",
+    "name": "masha2",
+    "description": "girl2"
+  },
+  {
+    "id": "3",
+    "name": "masha3",
+    "description": "girl3"
+  },
+  {
+    "id": "4",
+    "name": "masha4",
+    "description": "girl4"
+  },
+  {
+    "id": "5",
+    "name": "masha5",
+    "description": "girl5"
+  },
+  {
+    "id": "6",
+    "name": "masha6",
+    "description": "girl6"
+  }
+]

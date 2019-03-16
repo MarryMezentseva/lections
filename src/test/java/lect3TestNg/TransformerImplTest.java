@@ -3,6 +3,7 @@ package lect3TestNg;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.apache.commons.io.IOUtils;
+import org.testng.Reporter;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
@@ -27,8 +28,11 @@ public class TransformerImplTest {
         sut = new TransformerImpl();
     }
 
-    @Test(dataProvider = "userProvider")
+    @Test(dataProvider = "userProvider", testName = "myTestName", description = "someDescription")
     public void testConvert(User user) {
+
+        Reporter.log("HERE is my report for user: " + user.toString());
+
         DefinedUser definedUser = sut.convert(user);
         assertNotNull(definedUser.getConvertedDate());
         assertNotNull(definedUser.getFullName());

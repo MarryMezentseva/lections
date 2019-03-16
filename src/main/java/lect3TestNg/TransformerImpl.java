@@ -13,4 +13,9 @@ public class TransformerImpl implements Transformer {
         definedUser.setFullName(user.getId() +" " + user.getName() + " " + user.getDescription());
         return definedUser;
     }
+
+    @Override
+    public int getUserHash(User user) {
+        return (user.getId() + user.getDescription() + user.getName()).length();
+    }
 }

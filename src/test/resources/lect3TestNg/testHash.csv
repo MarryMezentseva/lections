@@ -1,0 +1,19 @@
+id,name,description,Is need to check,Expected Result
+1,masha,girl,true,10
+2,mashsda,gfgirl,false,10
+3,massdvsha,gbbbbbbirl,true,20
+4,masha,girl,true,10
+5,mashsda,gfgirl,false,12
+6,massdvsha,gbbbbbbirl,true,20
+7,masha,girl,true,10
+8,mashsda,gfgirl,true,14
+9,massdvsha,gbbbbbbirl,false,12
+1,masha,girl,true,10
+2,mashsda,gfgirl,false,10
+3,massdvsha,gbbbbbbirl,true,20
+4,masha,girl,true,10
+5,mashsda,gfgirl,false,12
+6,massdvsha,gbbbbbbirl,true,20
+7,masha,girl,true,10
+8,mashsda,gfgirl,true,14
+9,massdvsha,gbbbbbbirl,false,12

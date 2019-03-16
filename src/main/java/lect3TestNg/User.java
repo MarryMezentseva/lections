@@ -1,7 +1,7 @@
 package lect3TestNg;
 
 public class User {
-    private long id;
+    private Long id;
     private String name;
     private String description;
 
@@ -15,7 +15,7 @@ public class User {
         this.description = description;
     }
 
-    public long getId() {
+    public Long getId() {
         return id;
     }
 
